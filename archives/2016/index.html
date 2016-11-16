@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="google-site-verification" content="" />
+  
+  <title>2016</title>
+  <meta name="author" content="LYJ">
+  
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:site_name" content="万物皆对象 编程无止境"/>
+ <meta property="og:image" content="undefined"/>
+  
+  <link href="/apple-touch-icon-precomposed.png" sizes="180x180" rel="apple-touch-icon-precomposed">
+  <link rel="alternate" href="/atom.xml" title="万物皆对象 编程无止境" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/bootstrap.css"> 
+  <link rel="stylesheet" href="/css/m.min.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>
+  <div id="main">
+    <div class="behind">
+      <div class="back">
+        <a href="/" class="black-color"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+      <div class="description">
+        &nbsp;
+      </div>
+    </div>
+    <div class="container">
+      <nav class="navigator"><nav class="navbar navbar-default navbar-fixed-top">
+  <div class="nav-container">
+
+
+  
+  <ul class="nav navbar-nav navbar-left">
+    <li class="navbar-header">
+      <a href="/" class="navbar-brand">一子趣</a>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-tags fa-lg"></i>
+      </span></a>
+      <ul class="dropdown-content">
+
+          
+           <li><a href="/categories/一句/">一句</a></li>
+
+      </ul>
+    </li>
+  </ul>
+  
+  <div id="site_search" class="" style="display:none">
+  <input type="text" id="local-search-input" name="q" placeholder="谷歌站内搜索" class="form-control"/>
+</div>
+<div id="local-search-result"></div>
+<script type="text/javascript">  
+		 //注册键盘事件  
+		 document.onkeydown = function(e) {  
+		 //捕捉回车事件  
+		 var ev = (typeof event!= 'undefined') ? window.event : e;  
+		 var skey=document.getElementById('local-search-input').value;
+			 if(ev.keyCode == 13&&skey.length>1) {  
+				 document.getElementById('local-search-input').value="";
+				//https://www.google.com/search?q=sdf&sitesearch=http%3A%2F%2Flyj.im&gws_rd=ssl
+				window.open("https://www.google.com/search?q="+skey+"&sitesearch=http%3A%2F%2Flyj.im&gws_rd=ssl");
+				 
+			}  
+		}  
+	</script>  
+
+
+  <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-link fa-lg"></i>
+      </a>
+      <ul class="dropdown-content">
+        
+    </ul>
+    </li>
+    <li class="archives"><a href="/archives">
+      <i class="fa fa-archive fa-lg"></i>
+    </a></li>
+  </ul>
+  </div>
+</nav></nav>
+
+
+<a class="archive-title ">
+  
+  <i class="fa fa-archive"></i>
+  
+  2016
+</a>
+<div class="archive-num">
+  分类下共 1 篇文章
+</div>
+<div class="archive">
+  
+    
+      
+
+      
+
+        
+
+        
+
+        
+
+        </ul></section>
+        <section data-link="year-2016" class="section-year">
+            <h2>2016</h2>
+            <ul class="archive-list">
+                <div class="archive-item">
+                    <div class="archive-time">
+                      11-16
+                    </div>
+                    <div class="archive-detail">
+                      <a href="/2016/11/16/go/" class="archive-link">
+                        子趣小站
+                      </a>
+                    </div>
+                </div>
+                <hr>
+                
+    
+</div>
+
+
+    </div>
+  </div>
+  <footer class="page-footer"><div class="clearfix">
+</div>
+<div class="right-foot container">
+    <div class="firstrow">
+        <a href="#top" >
+        <i class="fa fa-arrow-right"></i>
+        </a>
+        
+    </div>
+    <div class="secondrow">
+        <a href="">
+        
+        </a>
+    </div>
+</div>
+<div class="clearfix">
+</div>
+</footer>
+  <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+
+// comments below to disable loading animation
+function revealOnScroll() {
+  var scrolled = $(window).scrollTop();
+  $(".excerpt, .index-title, .index-meta, p").each(function() {
+    var current = $(this),
+      height = $(window).outerHeight(),
+      offsetTop = current.offset().top;
+    (scrolled + height + 50 > offsetTop) ? current.addClass("animation"):'';
+  });
+}
+$(window).on("scroll", revealOnScroll);
+$(document).ready(revealOnScroll)
+
+// disqus scripts
+
+
+// dropdown scripts
+$(".dropdown").click(function(event) {
+  var current = $(this);
+  event.stopPropagation();
+  $(current).children(".dropdown-content")[($(current).children(".dropdown-content").hasClass("open"))?'removeClass':'addClass']("open")
+});
+$(document).click(function(){
+    $(".dropdown-content").removeClass("open");
+})
+
+// back to top scripts
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, 500);
+  return false;
+});
+
+
+var path = "/search.xml";
+searchFunc(path, 'local-search-input', 'local-search-result');
+
+</script>
+
+</body>
+</html>
